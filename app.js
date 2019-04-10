@@ -64,7 +64,7 @@ e.preventDefault();
  function removeTask(e){
 if(e.target.parentElement.classList.contains("delete-item"))
 {
-  if (confirm("Are You Sure"))e.target.parentElement.parentElement.remove();
+e.target.parentElement.parentElement.remove();
 }
 
  }
